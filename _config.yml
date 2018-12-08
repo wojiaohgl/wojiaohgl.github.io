@@ -1,0 +1,50 @@
+# Site settings
+title: 摩天崖之巅
+email: wojiaohgl@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  摩天崖之巅
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: http://www.motianya.top # the base hostname & protocol for your site
+rss_url: /pages/feed.xml
+author: Guolong Han
+
+# Sidebar filter
+# Choose 'tag' or 'category' as filter in sidebar.
+filter: 'category'
+recent_num: 20
+
+# Social account
+#twitter: masonsuyan
+# weibo:    ID
+github: wojiaohgl 
+# codepen:  username
+# dribbble: username
+
+# avatar头像及Favicon
+avatar: /assets/img/touxiang1.jpeg
+favicon: /assets/img/touxiang1.jpeg
+
+# disqus 设置
+#disqus:
+#  shortname: wojiaohgl
+
+# google analytics 设置
+#ga:
+#  id: UA-54767140-1
+#  url: yansu.org
+
+# Build settings
+permalink: /:year/:month/:day/:title.html
+markdown: kramdown
+highlighter: rouge
+mathjax: disabled
+sass:
+  style: compressed
+
+# Jekyll Plugin
+# https://help.github.com/articles/adding-jekyll-plugins-to-a-github-pages-site/
+#gems:
+  #  - jekyll-sitemap
+  #- jekyll-seo-tag
+  #- jekyll-feed
+
